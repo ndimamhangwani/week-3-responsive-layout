@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <h1 class="logo">Ndima.>_dev</h1>
+
+      <nav class="nav">
+        <a href="#features">Skills</a>
+        <a href="#gallery">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-row">
+        <div class="hero-text">
+          <h2>Hi, I’m Ndima Karabo Mhangwani a Front-End Developer</h2>
+          <p>
+            I build responsive, modern websites using HTML, CSS, Flexbox, and Grid. I am proudly learner at Techbriddlefoundation.
+          </p>
+          <a class="btn" href="#gallery">View My Work</a>
+        </div>
+
+        <div class="hero-card">
+          <h3>What I Do</h3>
+          <ul>
+            <li>Responsive web design</li>
+            <li>Clean, accessible layouts</li>
+            <li>Mobile first development</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features (Flexbox cards) -->
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="feature-row">
+          <article class="card">
+            <h3>HTML & CSS</h3>
+            <p>Semantic markup and modern CSS for clean layouts.</p>
+          </article>
+          <article class="card">
+            <h3>Flexbox & Grid</h3>
+            <p>Responsive layouts that adapt to any screen size.</p>
+          </article>
+          <article class="card">
+            <h3>Responsive Design</h3>
+            <p>Mobile-first designs with smooth breakpoints.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery (Grid) -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid">
+          <div class="tile">Project 1</div>
+          <div class="tile">Project 2</div>
+          <div class="tile">Project 3</div>
+          <div class="tile">Project 4</div>
+          <div class="tile">Project 5</div>
+          <div class="tile">Project 6</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" placeholder="Your name" />
+          </label>
+
+          <label>
+            Email
+            <input type="email" placeholder="you@email.com" />
+          </label>
+
+          <label>
+            Message
+            <textarea rows="4" placeholder="Tell me about your project..."></textarea>
+          </label>
+
+          <button type="button" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; 2026 My Portfolio</small>
+      <small>By Ndima Karabo Mhangwani</small>
+    </div>
+  </footer>
+</body>
+</html>
