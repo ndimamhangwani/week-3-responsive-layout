@@ -30,3 +30,7 @@ CSS3 variables are used to manage colors, making it easy to update or change the
 This project was created as part of a class assignment to practice responsive web design using Flexbox, Grid, and media queries.
 I am enjoy learning about flexbox and media queries
 
+## Screenshots of my project
+<img width="1900" height="800" alt="header" src="https://github.com/user-attachments/assets/f1ed462f-8d79-44e4-b802-f83d6b471af8" />
+<img width="1896" height="800" alt="footer" src="https://github.com/user-attachments/assets/42d30bbe-2673-4944-9a4f-dbd8aa1903e0" />
+<img width="1900" height="800" alt="body" src="https://github.com/user-attachments/assets/ec8a9964-a7f3-46f6-be7a-9577edd6fb03" />
